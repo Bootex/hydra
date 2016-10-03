@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tester',
+    'tracer',
     'blog',
+    'polls',
+    'dash',
+    'api',
+    'django_extensions',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -1,4 +1,7 @@
+
+#the app for testing and not using in project.
 templates
+tester/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
