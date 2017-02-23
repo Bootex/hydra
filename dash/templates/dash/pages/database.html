@@ -1,0 +1,18 @@
+{% extends 'dash/base.html' %}
+{% block content-header %}
+      <h1>
+        Dashboard
+        <small>Hydra > Database{{ db_log }}</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-database"></i> Dashboard</a></li>
+        <li class="active">DB</li>
+      </ol>
+{% endblock %}
+
+
+{% block content-main %}
+<pre>
+    {{ db_logs }}
+</pre>
+{% endblock %}
